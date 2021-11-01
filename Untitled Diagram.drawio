@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-11-01T03:30:22.629Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="MHiJ8FoWlZ8kTLPHfqKJ" version="15.6.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-01T08:19:29.765Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="H81n3jQ4NJvDm2SMhxrE" version="15.6.3" type="github">
   <diagram name="diagramme_classe" id="c4acf3e9-155e-7222-9cf6-157b1a14988f">
-    <mxGraphModel dx="1240" dy="689" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+    <mxGraphModel dx="723" dy="402" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -26,7 +26,7 @@
         <mxCell id="7-YqurPYllUJ31w4D0Pa-5" value="nomUtilisateur: string" style="text;strokeColor=#36393d;fillColor=#fff;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="7-YqurPYllUJ31w4D0Pa-1">
           <mxGeometry y="104" width="220" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="7-YqurPYllUJ31w4D0Pa-6" value="email: string" style="text;strokeColor=#36393d;fillColor=#fff;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="7-YqurPYllUJ31w4D0Pa-1">
+        <mxCell id="7-YqurPYllUJ31w4D0Pa-6" value="&amp;a    &#xa;&#xa;" style="text;strokeColor=#36393d;fillColor=#fff;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="7-YqurPYllUJ31w4D0Pa-1">
           <mxGeometry y="130" width="220" height="26" as="geometry" />
         </mxCell>
         <mxCell id="7-YqurPYllUJ31w4D0Pa-7" value="categorieCompte : CategorieCompte" style="text;strokeColor=#36393d;fillColor=#fff;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="7-YqurPYllUJ31w4D0Pa-1">
@@ -411,6 +411,32 @@
         <mxCell id="7-YqurPYllUJ31w4D0Pa-164" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7-YqurPYllUJ31w4D0Pa-162">
           <mxGeometry x="0.9045" y="4" relative="1" as="geometry">
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7-YqurPYllUJ31w4D0Pa-173" value="" style="endArrow=none;html=1;edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#000066;strokeWidth=2;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" target="7-YqurPYllUJ31w4D0Pa-80">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="770" y="191" as="sourcePoint" />
+            <mxPoint x="550" y="330" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="770" y="270" />
+              <mxPoint x="560" y="270" />
+              <mxPoint x="560" y="319" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7-YqurPYllUJ31w4D0Pa-174" value="1" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;rounded=0;strokeColor=#fff;strokeWidth=1;fillColor=#fff;gradientColor=none;" connectable="0" vertex="1" parent="7-YqurPYllUJ31w4D0Pa-173">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="-20" y="19" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7-YqurPYllUJ31w4D0Pa-175" value="1" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=bottom;rounded=0;strokeColor=#fff;strokeWidth=1;fillColor=#fff;gradientColor=none;" connectable="0" vertex="1" parent="7-YqurPYllUJ31w4D0Pa-173">
+          <mxGeometry x="1" relative="1" as="geometry">
+            <mxPoint x="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7-YqurPYllUJ31w4D0Pa-176" value="créer" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7-YqurPYllUJ31w4D0Pa-173">
+          <mxGeometry x="-0.2525" y="1" relative="1" as="geometry">
+            <mxPoint x="-47" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
